@@ -1,4 +1,5 @@
 import React from "react";
+import { ExternalLinkIcon } from "@heroicons/react/solid";
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -66,19 +67,21 @@ export default function Contact() {
             <div>
               <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">LinkedIn</h2>
             </div>
-            <p className="leading-relaxed mb-5">Connect with me on LinkedIn!</p>
-            <img
-              className="object-cover object-center rounded"
-              alt=""
-              src="./linkedin.PNG"
-            />
+            <p className="leading-relaxed mb-5">Connect with me on <a href="https://www.linkedin.com/in/nicholas-huynh111/">LinkedIn!<ExternalLinkIcon className="mx-auto inline-block w-4 mb-1" /></a></p>
+            <a href="https://www.linkedin.com/in/nicholas-huynh111/">
+              <img
+                className="relative w-full object-cover object-center hover:opacity-50"
+                alt="gallery"
+                src="./linkedin.PNG"
+              />
+            </a>
           </div>
         </div>
         <form
           netlify
           name="contact"
           onSubmit={handleSubmit}
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          className="lg:w-1/3 md:w-1/4 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
