@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "React Native",
     description:
       "A React Native app where you can sell items you don't need and message other users.",
-    image: "./project-1.gif",
+    image: "./donewithit.jpg",
     link: "https://github.com/nhuynh11/DoneWithIt",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "Python, C++, PHP",
     description:
       "IoT project for monitoring aquarium statistics such as water temperature.",
-    image: "./project-2.gif",
+    image: "./aqua_temps.png",
     link: "https://github.com/nhuynh11/AquariumManager",
   },
   {
@@ -20,16 +20,8 @@ export const projects = [
     subtitle: "React",
     description:
       "This portfolio site built with React",
-    image: "./project-3.gif",
+    image: "./mywebsite.JPG",
     link: "https://github.com/nhuynh11/Portfolio",
-  },
-  {
-    title: "Linear Program Tracker",
-    subtitle: "React",
-    description:
-      "A react app to accompany a linear workout program.",
-    image: "./project-4.gif",
-    link: "https://github.com/nhuynh11/LinearProgramTracker",
   },
 ];
 
