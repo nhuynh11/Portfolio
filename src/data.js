@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Crypto Bot",
+    subtitle: "Python",
+    description:
+      "A Discord bot that responds to chat commands concerning the crypto currency market.  Currently, channel members can use commands for market data summaries including price and volume graphs.",
+    image: "./crypto-bot.jpg",
+    link: "https://github.com/nhuynh11/Crypto-Bot",
+  },
+  {
     title: "DoneWithIt",
     subtitle: "React Native",
     description:
@@ -14,14 +22,6 @@ export const projects = [
       "IoT project for monitoring aquarium statistics such as water temperature.",
     image: "./aqua_temps.png",
     link: "https://github.com/nhuynh11/AquariumManager",
-  },
-  {
-    title: "Portfolio",
-    subtitle: "React",
-    description:
-      "This portfolio site built with React",
-    image: "./mywebsite.JPG",
-    link: "https://github.com/nhuynh11/Portfolio",
   },
 ];
 
